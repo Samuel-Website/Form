@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+#r1{
+  color: royalblue;
+  background-color: lightblue;
+}
+#r2{
+  background-color: skyblue;
+}
+div{
+    font-size: 47px;
+    font-family:'Square Peg', cursive;
+    margin-bottom: 7px;
+    padding-left: 525px;
+    color: forestgreen;
+}
+#s{
+    font-size: 23px;
+    border-radius: 10px;
+}
+#r{
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+#First{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+    background-color: white;
+    
+}
+#Second{
+    font-size: 89px;
+    font-family: cursive;
+    padding-bottom: 40px;
+    padding-left: 336px;
+    color: #38bd5a;
+}
+
+#name, #roll, #mail, #day, #gen, #Cast, #cost{
+    border-radius: 7px;
+    border-color: royalblue;
+}
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Admission</title>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="college form.css">
+</head>
+
+<body>
+
+    <table id="First">
+            <tr id="r1">
+                <th>Cast</th>
+                <th>Genral</th>
+                <th>OBC</th>
+                <th>SC/ST</th>
+                <th>other</th>
+            </tr>
+            <tr id="r2">
+                <td>Fees</td>
+                <td>300</td>
+                <td>200</td>
+                <td>100</td>
+                <td>150</td>
+            </tr>
+        
+    </table>
+    <h1 id="Second">Form For Admission</h1>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="roll">Phone number:</label>
+            <input type="number" name="" id="roll">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Email: </label>
+            <input type="email" name="" id="mail">
+        </div>
+        <br>
+        <div>
+            <label for="day">Date of birth: </label>
+            <input type="date" name="" id="day">
+        </div>
+        <br>
+        <div>
+            <label for="gen">Gender: </label>
+            Male<input type="radio" name="myGen" id="gen">
+            Female<input type="radio" name="myGen" id="gen">
+            Other<input type="radio" name="myGen" id="gen">
+        </div>
+        <br>
+        <div>
+            <label for="Cast">Cast</label>
+            <select name="" id="Cast">
+                <option value="">SC/ST</option>
+                <option value="" selected>Genral</option>
+                <option value="">OBC</option>
+                <option value="">other</option>
+            </select>
+        </div>
+        <br>
+
+        <br>
+        <div>
+            <a href="terms and cond.html" target="_blank">Terms and condition
+            </a> 
+            <input type="checkbox" name="" id="check">
+        </div>
+        <br>
+        <div>
+            <input type="submit" id="s" value="Submit">
+            <input type="reset" id="r" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
